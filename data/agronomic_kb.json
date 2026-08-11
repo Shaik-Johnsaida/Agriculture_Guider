@@ -1,0 +1,275 @@
+{
+  "diseases": {
+    "tomato_late_blight": {
+      "crop": "Tomato",
+      "disease_name": "Late Blight (Phytophthora infestans)",
+      "severity": "Severe",
+      "visual_evidence": [
+        "Dark, water-soaked brown lesions on leaf margins and stems",
+        "Pale green halo surrounding brown necrotized leaf tissue",
+        "White downy fungal growth visible on undersides of leaves during humid conditions"
+      ],
+      "immediate_actions": [
+        "Prune and destroy severely infected lower leaves immediately.",
+        "Discontinue overhead sprinkler irrigation to keep canopy dry."
+      ],
+      "organic_treatment": [
+        "Spray Copper Hydroxide or Copper Oxychloride (2.5 g/L) as a bio-protectant barrier.",
+        "Apply bio-fungicide containing Trichoderma harzianum (5 ml/L) weekly."
+      ],
+      "chemical_treatment": [
+        "Systemic option: Metalaxyl 8% + Mancozeb 64% WP @ 2.5 g/L of water.",
+        "Curative option: Dimethomorph 50% WP @ 1 g/L or Cyazofamid 34.5% SC @ 0.6 ml/L."
+      ],
+      "what_not_to_do": [
+        "Do NOT spray contact fungicides if rain is expected within 3–4 hours.",
+        "Do NOT leave infected crop residues on field soil surface."
+      ],
+      "preventive_measures": [
+        "Maintain 60 cm row spacing for optimal air circulation.",
+        "Rotate crops with non-solanaceous species (e.g. maize, legumes)."
+      ]
+    },
+    "tomato_early_blight": {
+      "crop": "Tomato",
+      "disease_name": "Early Blight (Alternaria solani)",
+      "severity": "Moderate",
+      "visual_evidence": [
+        "Concentric target-board ring patterns inside brown leaf spots",
+        "Chlorotic yellowing of surrounding older leaf blade"
+      ],
+      "immediate_actions": [
+        "Remove infected lower leaves touching soil surface.",
+        "Apply organic mulch around stem base to prevent fungal spore splash."
+      ],
+      "organic_treatment": [
+        "Spray Neem Seed Kernel Extract (NSKE 5%) or Neem Oil (3 ml/L).",
+        "Foliar application of Pseudomonas fluorescens @ 10 g/L."
+      ],
+      "chemical_treatment": [
+        "Spray Mancozeb 75% WP @ 2.5 g/L or Chlorothalonil 75% WP @ 2 g/L.",
+        "Option: Difenoconazole 25% EC @ 0.5 ml/L of water."
+      ],
+      "what_not_to_do": [
+        "Do NOT apply excessive Nitrogen fertilizer.",
+        "Do NOT spray when ambient temperature exceeds 34°C."
+      ],
+      "preventive_measures": [
+        "Use drip irrigation to keep foliage completely dry.",
+        "Stake tomato plants vertically to keep leaves off soil."
+      ]
+    },
+    "tomato_bacterial_spot": {
+      "crop": "Tomato",
+      "disease_name": "Bacterial Spot (Xanthomonas spp.)",
+      "severity": "Severe",
+      "visual_evidence": [
+        "Small dark brown water-soaked angular spots on leaf lamina",
+        "Yellow halo surrounding dark necrotized lesions",
+        "Scabby dark raised spots on developing fruit"
+      ],
+      "immediate_actions": [
+        "Sanitize hands and pruning shears after touching infected plants.",
+        "Avoid working in field while foliage is wet with dew."
+      ],
+      "organic_treatment": [
+        "Spray Copper Hydroxide (2 g/L) combined with bio-protectants.",
+        "Apply Bacillus subtilis bio-formulation (5 g/L)."
+      ],
+      "chemical_treatment": [
+        "Bactericide spray: Streptomycin Sulfate + Tetracycline Combination @ 0.5 g/L with Copper Oxychloride @ 2 g/L."
+      ],
+      "what_not_to_do": [
+        "Do NOT handle plants when wet with rain or overhead irrigation.",
+        "Do NOT reuse un-sanitized stakes."
+      ],
+      "preventive_measures": [
+        "Plant certified pathogen-free seeds.",
+        "Hot water seed treatment at 50°C for 25 minutes before sowing."
+      ]
+    },
+    "tomato_yellow_leaf_curl": {
+      "crop": "Tomato",
+      "disease_name": "Yellow Leaf Curl Virus (TYLCV)",
+      "severity": "Severe",
+      "visual_evidence": [
+        "Upward leaf cupping and yellowing of young leaves",
+        "Stunted bush-like plant habit and flower drop",
+        "Prominent whitefly vector presence on leaf undersides"
+      ],
+      "immediate_actions": [
+        "Uproot and destroy viral-infected plants early.",
+        "Install yellow sticky traps @ 20/acre to capture whitefly vectors."
+      ],
+      "organic_treatment": [
+        "Foliar spray of Neem Oil 10,000 ppm @ 3 ml/L with soap spreader.",
+        "Spray Verticillium lecanii bio-insecticide @ 5 g/L."
+      ],
+      "chemical_treatment": [
+        "Target vector: Spray Afidopyropen 50 g/L DC @ 2 ml/L or Diafenthiuron 50% WP @ 1.2 g/L."
+      ],
+      "what_not_to_do": [
+        "Do NOT allow weed hosts (Parthenium, Abutilon) to flourish near bunds."
+      ],
+      "preventive_measures": [
+        "Use insect-proof net screen houses (40-mesh) for nursery seedlings.",
+        "Grow TYLCV resistant tomato hybrids."
+      ]
+    },
+    "rice_brown_spot": {
+      "crop": "Rice / Paddy",
+      "disease_name": "Brown Spot (Bipolaris oryzae)",
+      "severity": "Moderate",
+      "visual_evidence": [
+        "Oval dark brown spots with yellow chlorotic margins",
+        "Lesions evenly scattered across paddy leaf blade",
+        "Discolored grains on affected panicles"
+      ],
+      "immediate_actions": [
+        "Top-dress soil with Potassium (MOP) and Zinc to correct nutrient deficiency.",
+        "Maintain 3–5 cm standing water level in field."
+      ],
+      "organic_treatment": [
+        "Seed treatment with Trichoderma viride @ 10 g/kg seed.",
+        "Foliar spray of 5% Neem leaf extract twice."
+      ],
+      "chemical_treatment": [
+        "Foliar spray of Hexaconazole 5% EC @ 2 ml/L or Propiconazole 25% EC @ 1 ml/L."
+      ],
+      "what_not_to_do": [
+        "Do NOT let field dry out during boot-leaf stage.",
+        "Do NOT spray during high wind speeds (> 15 km/h)."
+      ],
+      "preventive_measures": [
+        "Apply balanced NPK fertilization with micro-nutrients.",
+        "Use certified clean seeds."
+      ]
+    },
+    "rice_blast": {
+      "crop": "Rice / Paddy",
+      "disease_name": "Leaf Blast (Magnaporthe oryzae)",
+      "severity": "Severe",
+      "visual_evidence": [
+        "Spindle-shaped lesions with gray center and reddish-brown margin",
+        "Coalescing spots causing leaf drying and neck rot"
+      ],
+      "immediate_actions": [
+        "Drain excess standing water temporarily if over-fertilized with Nitrogen.",
+        "Suspend Nitrogen top-dressing immediately."
+      ],
+      "organic_treatment": [
+        "Spray Pseudomonas fluorescens @ 2.5 kg/ha in FYM."
+      ],
+      "chemical_treatment": [
+        "Foliar spray of Tricyclazole 75% WP @ 0.6 g/L of water.",
+        "Or Azoxystrobin 18.2% + Difenoconazole 11.4% SC @ 1 ml/L."
+      ],
+      "what_not_to_do": [
+        "Do NOT apply excess urea during humid overcast weather."
+      ],
+      "preventive_measures": [
+        "Seed treatment with Tricyclazole @ 2 g/kg seed."
+      ]
+    },
+    "cotton_leaf_curl": {
+      "crop": "Cotton",
+      "disease_name": "Cotton Leaf Curl Virus (CLCuV)",
+      "severity": "Severe",
+      "visual_evidence": [
+        "Upward or downward leaf curling",
+        "Thickening of leaf veins on lower surface forming cup-like enations"
+      ],
+      "immediate_actions": [
+        "Uproot severely stunted viral infected plants.",
+        "Control whitefly vectors on border crops."
+      ],
+      "organic_treatment": [
+        "Yellow sticky traps @ 25 traps/acre.",
+        "Foliar spray of Neem Oil 10,000 ppm @ 2 ml/L."
+      ],
+      "chemical_treatment": [
+        "Target vector: Spray Afidopyropen @ 2 ml/L or Spirotetramat + Imidacloprid @ 1 ml/L."
+      ],
+      "what_not_to_do": [
+        "Do NOT spray pyrethroids which cause whitefly resurgence."
+      ],
+      "preventive_measures": [
+        "Plant border crops like Pearl Millet or Sorghum as physical vector barrier."
+      ]
+    },
+    "corn_common_rust": {
+      "crop": "Corn / Maize",
+      "disease_name": "Common Rust (Puccinia sorghi)",
+      "severity": "Moderate",
+      "visual_evidence": [
+        "Golden-brown to cinnamon pustules erupting on leaf surfaces",
+        "Powdery rust spores rubbing off on touch"
+      ],
+      "immediate_actions": [
+        "Initiate treatment if rust affects leaves near ear level early in grain filling."
+      ],
+      "organic_treatment": [
+        "Foliar spray of Sulfur 80% WDG @ 3 g/L as eco-friendly rust barrier."
+      ],
+      "chemical_treatment": [
+        "Foliar spray of Azoxystrobin 23% SC @ 1 ml/L or Propiconazole 25% EC @ 1 ml/L."
+      ],
+      "what_not_to_do": [
+        "Do NOT spray sulfur when temperature exceeds 33°C to avoid leaf burn."
+      ],
+      "preventive_measures": [
+        "Plant resistant maize hybrids."
+      ]
+    },
+    "potato_late_blight": {
+      "crop": "Potato",
+      "disease_name": "Potato Late Blight (Phytophthora infestans)",
+      "severity": "Severe",
+      "visual_evidence": [
+        "Dark brown/black blighted patches on leaf blade",
+        "White mildew ring on lower leaf surface during high humidity"
+      ],
+      "immediate_actions": [
+        "Apply protective fungicide spray before rain.",
+        "Earthing up soil around potato hills to protect tubers."
+      ],
+      "organic_treatment": [
+        "Copper Oxychloride 50% WP @ 3 g/L."
+      ],
+      "chemical_treatment": [
+        "Cymoxanil 8% + Mancozeb 64% WP @ 2.5 g/L or Fluopicolide + Propamocarb @ 1.5 ml/L."
+      ],
+      "what_not_to_do": [
+        "Do NOT harvest tubers while foliage is actively blighted."
+      ],
+      "preventive_measures": [
+        "Use certified disease-free seed tubers."
+      ]
+    },
+    "healthy_leaf": {
+      "crop": "Crop Foliage",
+      "disease_name": "Healthy Foliage (No Disease Detected)",
+      "severity": "None",
+      "visual_evidence": [
+        "Uniform green chlorophyll distribution across leaf lamina",
+        "Intact leaf margins free of necrotic lesions"
+      ],
+      "immediate_actions": [
+        "No chemical intervention required.",
+        "Continue routine field scouting and drip moisture management."
+      ],
+      "organic_treatment": [
+        "Apply preventative bio-stimulants (Seaweed extract 2 ml/L) to maintain immunity."
+      ],
+      "chemical_treatment": [
+        "No chemical spray necessary."
+      ],
+      "what_not_to_do": [
+        "Do NOT spray unnecessary pesticides when crop is healthy."
+      ],
+      "preventive_measures": [
+        "Regular field scouting twice a week."
+      ]
+    }
+  }
+}

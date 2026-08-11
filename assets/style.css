@@ -1,0 +1,165 @@
+/* Modern Glassmorphic CSS Styling for AgriShield AI */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* App Background & Base Theme */
+.stApp {
+    background: linear-gradient(135deg, #061509 0%, #030C05 50%, #020703 100%);
+    color: #F1F5F9;
+}
+
+/* Glassmorphic Container Cards */
+.glass-card {
+    background: rgba(14, 31, 17, 0.85);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(76, 175, 80, 0.25);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.45);
+}
+
+.glass-card-accent {
+    background: linear-gradient(135deg, rgba(27, 94, 32, 0.45) 0%, rgba(10, 30, 18, 0.85) 100%);
+    border: 1px solid rgba(129, 199, 132, 0.4);
+}
+
+/* Header Branding Banner */
+.brand-title {
+    font-size: 2.6rem;
+    font-weight: 800;
+    background: linear-gradient(90deg, #81C784 0%, #4CAF50 50%, #A5D6A7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 4px;
+    letter-spacing: -0.02em;
+}
+
+.brand-tagline {
+    font-size: 1.15rem;
+    color: #A7F3D0;
+    font-weight: 600;
+}
+
+.brand-subtagline {
+    font-size: 0.95rem;
+    color: #94A3B8;
+    margin-top: 4px;
+}
+
+/* Action Decision Badges */
+.badge-safe {
+    background-color: rgba(46, 125, 50, 0.25);
+    border: 2px solid #4CAF50;
+    color: #A7F3D0;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 800;
+    font-size: 1.2rem;
+    display: inline-block;
+    letter-spacing: 0.02em;
+}
+
+.badge-warning {
+    background-color: rgba(239, 108, 0, 0.25);
+    border: 2px solid #FF9800;
+    color: #FDE68A;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 800;
+    font-size: 1.2rem;
+    display: inline-block;
+    letter-spacing: 0.02em;
+}
+
+.badge-danger {
+    background-color: rgba(198, 40, 40, 0.3);
+    border: 2px solid #F44336;
+    color: #FECDD3;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 800;
+    font-size: 1.2rem;
+    display: inline-block;
+    letter-spacing: 0.02em;
+}
+
+/* Weather Signal Metric Boxes */
+.metric-box {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 14px;
+    padding: 18px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.metric-box:hover {
+    transform: translateY(-2px);
+    border-color: rgba(76, 175, 80, 0.4);
+}
+
+.metric-val {
+    font-size: 1.9rem;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.metric-lbl {
+    font-size: 0.85rem;
+    color: #94A3B8;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-top: 6px;
+    font-weight: 600;
+}
+
+/* Custom Tabs Styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 8px;
+    background-color: rgba(10, 25, 12, 0.7);
+    padding: 8px;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.stTabs [data-baseweb="tab"] {
+    border-radius: 10px;
+    color: #94A3B8;
+    font-weight: 700;
+    padding: 12px 24px;
+}
+
+.stTabs [aria-selected="true"] {
+    background: linear-gradient(135deg, #2E7D32 0%, #1B5E20 100%) !important;
+    color: #FFFFFF !important;
+    box-shadow: 0 4px 15px rgba(46, 125, 50, 0.4);
+}
+
+/* Buttons Styling */
+.stButton button {
+    background: linear-gradient(135deg, #2E7D32 0%, #1B5E20 100%);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 12px;
+    font-weight: 700;
+    padding: 12px 28px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.stButton button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(46, 125, 50, 0.5);
+    background: linear-gradient(135deg, #388E3C 0%, #2E7D32 100%);
+}
+
+/* Hide Streamlit Default Padding & Header Elements */
+header[data-testid="stHeader"] {
+    background: transparent;
+}
